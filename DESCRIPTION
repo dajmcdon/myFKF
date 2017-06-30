@@ -1,0 +1,14 @@
+Package: myFKF
+Type: Package
+Title: Fast Kalman Filtering and Smoothing
+Version: 0.1
+Date: 2016-01-14
+Authors@R: person("Daniel", "McDonald", email = "dajmcdon@indiana.edu", role=c('aut','cre'))
+Maintainer: Daniel J. McDonald <dajmcdon@indiana.edu>
+Description: This package extends the FKF package by providing Kalman smoothing
+    and handling missing data correctly. It also contains functions to easily
+    generate certain structural time series models.
+License: Proprietary.
+LazyData: TRUE
+Imports: Matrix, grDevices, graphics, stats
+RoxygenNote: 6.0.1
